@@ -25,7 +25,6 @@ class App extends React.Component {
     const { open } = this.state;
     return (
       <div style={styles}>
-        <h2>react-responsive-modal</h2>
         <button onClick={this.onOpenModal}>Open modal</button>
         <Modal open={open} onClose={this.onCloseModal}>
           <h2>Simple centered modal</h2>
